@@ -1,0 +1,15 @@
+@mixin backgroundImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin button {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: center;
+  color: #ffffff;
+  padding: 1%;
+}
