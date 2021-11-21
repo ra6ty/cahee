@@ -1,1 +1,92 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-image: url(../images/1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem 7rem;
+}
+
+header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navigation p {
+  font-size: 50px;
+  font-family: "Pacifico", sans-serif;
+}
+
+header .navigation ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-decoration: none;
+  margin: 0rem 1rem;
+}
+
+header .navigation ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #262626;
+  font-weight: bolder;
+}
+
+header .navigation ul li a:hover {
+  border-top: 3px solid #ff6033;
+  padding-top: 2px;
+}
+
+header .header-box {
+  margin-top: 20rem;
+}
+
+header .header-box h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+header .header-box p {
+  font-size: 17px;
+  color: #262626;
+  width: 400px;
+  margin-bottom: 2rem;
+}
+
+header .header-box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  padding: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #ff6033;
+}
+
+header .icon-0 {
+  margin-top: 30rem;
+  display: block;
+  margin: 0px auto;
+  margin-top: 14rem;
+}
+/*# sourceMappingURL=style.css.map */

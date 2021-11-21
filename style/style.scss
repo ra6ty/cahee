@@ -1,5 +1,59 @@
-// font-family: 'Pacifico',
-// cursive;
-// font-family: 'Raleway',
-// sans-serif;
 @import "mixins";
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-image: url(../images/1.png);
+  @include backgroundImage;
+  padding: 1rem 7rem;
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & p {
+      font-size: 50px;
+      font-family: "Pacifico", sans-serif;
+    }
+    & ul li {
+      display: inline-flex;
+      text-decoration: none;
+      margin: 0rem 1rem;
+      & a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #262626;
+        font-weight: bolder;
+      }
+      & a:hover {
+        border-top: 3px solid #ff6033;
+        padding-top: 2px;
+      }
+    }
+  }
+  & .header-box {
+    margin-top: 20rem;
+    h1 {
+      font-size: 60px;
+      font-weight: 900;
+      color: #262626;
+      margin-bottom: 2rem;
+    }
+    & p {
+      font-size: 17px;
+      color: #262626;
+      width: 400px;
+      margin-bottom: 2rem;
+    }
+    & a {
+      @include button;
+      background-color: #ff6033;
+    }
+  }
+  & .icon-0 {
+    margin-top: 30rem;
+    display: block;
+    margin: 0px auto;
+    margin-top: 14rem;
+  }
+}
