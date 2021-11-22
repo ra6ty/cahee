@@ -53,7 +53,310 @@ header {
   & .icon-0 {
     margin-top: 30rem;
     display: block;
-    margin: 0px auto;
-    margin-top: 14rem;
+    margin: 14rem auto;
+    margin-bottom: 2rem;
+  }
+}
+
+main {
+  width: 100%;
+  & .first-box {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    background-color: #00c4c4;
+    & div {
+      margin: 0rem 6rem;
+      & h2 {
+        font-size: 90px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+      & p {
+        font-size: 17px;
+        line-height: 27px;
+        color: #ffffff;
+        width: 500px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  & .thekond-box {
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #70bfff;
+    position: relative;
+    & .left-box div {
+      display: flex;
+      width: 400px;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #ffffff;
+      margin: 1rem;
+      & p {
+        font-size: 20px;
+        font-weight: 700;
+        color: #262626;
+        width: 17rem;
+        text-align: center;
+        width: 300px;
+      }
+      & object {
+        border-left: #9d9d9d 1px solid;
+        padding: 1rem;
+      }
+    }
+    & .right-box {
+      background-image: url(../images/3.png);
+      @include backgroundImage;
+      width: 462px;
+      height: 527px;
+      & p {
+        font-size: 90px;
+        font-weight: bold;
+        color: #ffffff;
+        position: absolute;
+        right: 200px;
+        top: 270px;
+      }
+    }
+  }
+  & .third-box {
+    background-color: #ffe92f;
+    padding: 5rem;
+    & h2 {
+      font-size: 90px;
+      font-weight: 700;
+      color: #262626;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    & p {
+      font-size: 17px;
+      line-height: 27px;
+      color: #262626;
+      text-align: center;
+      width: 600px;
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 2rem;
+    }
+    & .big-box-1 {
+      display: flex;
+      justify-content: center;
+      & img {
+        width: 770px;
+        height: 550px;
+      }
+      & .box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3px;
+        margin-left: 1%;
+        & img {
+          width: 370px;
+          height: 260px;
+          margin-bottom: 5%;
+        }
+      }
+    }
+    & .big-box-2 {
+      display: flex;
+      justify-content: center;
+      & img {
+        width: 565px;
+        height: 400px;
+        margin: 0px 10px;
+      }
+    }
+    & a {
+      @include button;
+      margin: 2rem auto;
+      background-color: #5585a2;
+    }
+  }
+  & .fourth-box {
+    padding: 10rem 0rem 10rem 23rem;
+    background-image: url(../images/9.png);
+    @include backgroundImage;
+    & h2 {
+      font-size: 40px;
+      font-weight: bolder;
+      color: #262626;
+      margin-bottom: 1rem;
+    }
+    & p {
+      font-size: 17px;
+      line-height: 27px;
+      color: #262626;
+      width: 550px;
+      margin-bottom: 1rem;
+    }
+    & form {
+      display: flex;
+      & .email {
+        border: 1px solid #000000;
+        background-color: unset;
+        padding: 1% 2%;
+        opacity: 0.5;
+        font-size: 15px;
+        color: #262626;
+        width: 570px;
+      }
+      & .button {
+        @include button;
+        background-color: #96b92c;
+        margin-left: 2rem;
+        border: unset;
+      }
+    }
+  }
+  & .fifth-box {
+    padding: 5rem;
+    background-color: #b07cf7;
+    & h2 {
+      font-size: 90px;
+      font-weight: bolder;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    & p {
+      font-size: 17px;
+      line-height: 25px;
+      color: #ffffff;
+      text-align: center;
+      width: 600px;
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 2rem;
+    }
+    & .big-box {
+      display: flex;
+      justify-content: center;
+      & div {
+        position: relative;
+        width: 370px;
+        height: 310px;
+        padding: 2rem;
+        margin: 0rem 1rem;
+        & .date {
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          opacity: 0.5;
+          background-color: #262626;
+          border-radius: 5px;
+          padding: 0% 2%;
+          & .numb {
+            font-size: 32px;
+            font-weight: bolder;
+            color: #ffffff;
+            text-align: start;
+            margin-bottom: 2px;
+            padding: 0px 5px;
+          }
+          & .month {
+            font-size: 21px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: start;
+          }
+        }
+        & p {
+          position: absolute;
+          font-size: 20px;
+          line-height: 25px;
+          color: #ffffff;
+          bottom: 3rem;
+          width: 300px;
+          text-align: start;
+          margin-bottom: 1rem;
+        }
+        & span {
+          position: absolute;
+          font-size: 13px;
+          font-weight: 300;
+          bottom: 2rem;
+          color: #ffffff;
+        }
+      }
+      & .box-1 {
+        background-image: url(../images/10.png);
+        @include backgroundImage;
+        background-size: unset;
+      }
+      & .box-2 {
+        background-image: url(../images/11.png);
+        @include backgroundImage;
+      }
+      & .box-3 {
+        background-image: url(../images/12.png);
+        @include backgroundImage;
+      }
+    }
+    & a {
+      background-color: #f72b3b;
+      @include button;
+      margin: 2rem auto;
+    }
+  }
+  & .sixth-box {
+    text-align: center;
+    background-image: url("../images/13.png");
+    @include backgroundImage;
+    padding: 5rem 0rem;
+    & h2 {
+      font-size: 90px;
+      font-weight: bold;
+      color: #262626;
+    }
+    & p {
+      font-size: 17px;
+      line-height: 25px;
+      color: #262626;
+      width: 350px;
+      display: block;
+      margin: 2rem auto;
+    }
+    & .contact {
+      display: flex;
+      justify-content: center;
+      text-align: start;
+      margin-right: 10rem;
+      &-form {
+        margin-right: 10rem;
+        & input {
+          @include form;
+          display: flex;
+        }
+        & input:focus {
+          opacity: 1;
+          outline: none;
+          border-left: 5px solid #355b82;
+        }
+        & textarea {
+          @include form;
+        }
+        & textarea:focus {
+          opacity: 1;
+          outline: none;
+          border-left: 5px solid #355b82;
+        }
+      }
+      &-adress {
+        & h3 {
+          font-size: 17px;
+          font-weight: bold;
+        }
+        & p {
+          font-size: 20px;
+          margin-top: 0px;
+        }
+      }
+    }
   }
 }

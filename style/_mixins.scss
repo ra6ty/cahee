@@ -11,6 +11,17 @@
   font-weight: 300;
   justify-content: center;
   color: #ffffff;
-  padding: 1%;
+  padding: 1% 2%;
   width: max-content;
+}
+
+@mixin form {
+  width: 500px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #00c4c4;
+  border: none;
+  padding: 2%;
+  margin: 2% 0%;
+  opacity: 0.5;
 }
