@@ -548,4 +548,34 @@ main .sixth-box .contact-adress p {
   font-size: 20px;
   margin-top: 0px;
 }
+
+footer {
+  background-color: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+}
+
+footer p {
+  font-size: 16px;
+  color: #b9b9b9;
+}
+
+footer p span {
+  font-weight: 700;
+  color: #ff2b58;
+}
+
+footer h2 {
+  font-family: "Pacifico", sans-serif;
+  font-size: 25px;
+  color: #b9b9b9;
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
