@@ -53,7 +53,6 @@ header .header-box {
 
 header .header-box h1 {
   font-size: 60px;
-  font-weight: 900;
   color: #262626;
   margin-bottom: 2rem;
 }
@@ -71,7 +70,6 @@ header .header-box a {
   display: flex;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -111,7 +109,6 @@ main .first-box div {
 
 main .first-box div h2 {
   font-size: 90px;
-  font-weight: 700;
   color: #ffffff;
 }
 
@@ -142,9 +139,6 @@ main .thekond-box .left-box div {
   display: -ms-flexbox;
   display: flex;
   width: 400px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -156,7 +150,6 @@ main .thekond-box .left-box div p {
   font-size: 20px;
   font-weight: 700;
   color: #262626;
-  width: 17rem;
   text-align: center;
   width: 300px;
 }
@@ -191,7 +184,6 @@ main .third-box {
 
 main .third-box h2 {
   font-size: 90px;
-  font-weight: 700;
   color: #262626;
   text-align: center;
   margin-bottom: 1rem;
@@ -204,8 +196,7 @@ main .third-box p {
   text-align: center;
   width: 600px;
   display: block;
-  margin: 0px auto;
-  margin-bottom: 2rem;
+  margin: 0rem auto 2rem auto;
 }
 
 main .third-box .big-box-1 {
@@ -264,7 +255,6 @@ main .third-box a {
   display: flex;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -278,7 +268,7 @@ main .third-box a {
 }
 
 main .fourth-box {
-  padding: 10rem 0rem 10rem 23rem;
+  padding: 10rem 0rem 10rem 14rem;
   background-image: url(../images/9.png);
   background-size: cover;
   background-position: center;
@@ -287,7 +277,6 @@ main .fourth-box {
 
 main .fourth-box h2 {
   font-size: 40px;
-  font-weight: bolder;
   color: #262626;
   margin-bottom: 1rem;
 }
@@ -322,7 +311,6 @@ main .fourth-box form .button {
   display: flex;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -343,7 +331,6 @@ main .fifth-box {
 
 main .fifth-box h2 {
   font-size: 90px;
-  font-weight: bolder;
   color: #ffffff;
   text-align: center;
   margin-bottom: 2rem;
@@ -451,7 +438,6 @@ main .fifth-box a {
   display: flex;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -474,7 +460,6 @@ main .sixth-box {
 
 main .sixth-box h2 {
   font-size: 90px;
-  font-weight: bold;
   color: #262626;
 }
 
@@ -541,7 +526,6 @@ main .sixth-box .contact-form textarea:focus {
 
 main .sixth-box .contact-adress h3 {
   font-size: 17px;
-  font-weight: bold;
 }
 
 main .sixth-box .contact-adress p {

@@ -35,7 +35,6 @@ header {
     margin-top: 20rem;
     h1 {
       font-size: 60px;
-      font-weight: 900;
       color: #262626;
       margin-bottom: 2rem;
     }
@@ -69,7 +68,6 @@ main {
       margin: 0rem 6rem;
       & h2 {
         font-size: 90px;
-        font-weight: 700;
         color: #ffffff;
       }
       & p {
@@ -91,7 +89,6 @@ main {
     & .left-box div {
       display: flex;
       width: 400px;
-      justify-content: flex-start;
       align-items: center;
       background-color: #ffffff;
       margin: 1rem;
@@ -99,7 +96,6 @@ main {
         font-size: 20px;
         font-weight: 700;
         color: #262626;
-        width: 17rem;
         text-align: center;
         width: 300px;
       }
@@ -128,7 +124,6 @@ main {
     padding: 5rem;
     & h2 {
       font-size: 90px;
-      font-weight: 700;
       color: #262626;
       text-align: center;
       margin-bottom: 1rem;
@@ -140,8 +135,7 @@ main {
       text-align: center;
       width: 600px;
       display: block;
-      margin: 0px auto;
-      margin-bottom: 2rem;
+      margin: 0rem auto 2rem auto;
     }
     & .big-box-1 {
       display: flex;
@@ -179,12 +173,11 @@ main {
     }
   }
   & .fourth-box {
-    padding: 10rem 0rem 10rem 23rem;
+    padding: 10rem 0rem 10rem 14rem;
     background-image: url(../images/9.png);
     @include backgroundImage;
     & h2 {
       font-size: 40px;
-      font-weight: bolder;
       color: #262626;
       margin-bottom: 1rem;
     }
@@ -219,7 +212,6 @@ main {
     background-color: #b07cf7;
     & h2 {
       font-size: 90px;
-      font-weight: bolder;
       color: #ffffff;
       text-align: center;
       margin-bottom: 2rem;
@@ -311,7 +303,6 @@ main {
     padding: 5rem 0rem;
     & h2 {
       font-size: 90px;
-      font-weight: bold;
       color: #262626;
     }
     & p {
@@ -350,7 +341,6 @@ main {
       &-adress {
         & h3 {
           font-size: 17px;
-          font-weight: bold;
         }
         & p {
           font-size: 20px;
