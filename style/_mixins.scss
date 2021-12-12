@@ -1,26 +1,26 @@
-@mixin backgroundImage {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@mixin button {
-  display: flex;
-  text-decoration: none;
-  font-size: 20px;
-  justify-content: center;
-  color: #ffffff;
-  padding: 1% 2%;
-  width: max-content;
-}
-
-@mixin form {
-  width: 500px;
-  font-size: 15px;
-  color: #ffffff;
-  background-color: #00c4c4;
-  border: none;
-  padding: 2%;
-  margin: 2% 0%;
-  opacity: 0.5;
-}
+  @mixin backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @mixin button {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    color: #ffffff;
+    padding: 1% 2%;
+    width: max-content;
+  }
+  
+  @mixin form {
+    width: 500px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #00c4c4;
+    border: none;
+    padding: 2%;
+    margin: 2% 0%;
+    opacity: 0.5;
+  }

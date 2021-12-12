@@ -7,7 +7,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 1rem 7rem;
+  padding: 1rem 6rem;
 }
 
 header .navigation {
@@ -27,7 +27,7 @@ header .navigation p {
   font-family: "Pacifico", sans-serif;
 }
 
-header .navigation ul li {
+header .navigation div li {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -35,14 +35,14 @@ header .navigation ul li {
   margin: 0rem 1rem;
 }
 
-header .navigation ul li a {
+header .navigation div li a {
   text-decoration: none;
   font-size: 16px;
   color: #262626;
   font-weight: bolder;
 }
 
-header .navigation ul li a:hover {
+header .navigation div li a:hover {
   border-top: 3px solid #ff6033;
   padding-top: 2px;
 }
@@ -60,7 +60,7 @@ header .header-box h1 {
 header .header-box p {
   font-size: 17px;
   color: #262626;
-  width: 400px;
+  max-width: 400px;
   margin-bottom: 2rem;
 }
 
@@ -96,6 +96,11 @@ main .first-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 3rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -116,14 +121,22 @@ main .first-box div p {
   font-size: 17px;
   line-height: 27px;
   color: #ffffff;
-  width: 500px;
+  max-width: 500px;
   margin-bottom: 1rem;
+}
+
+main .first-box--img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 !important;
 }
 
 main .thekond-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -138,7 +151,7 @@ main .thekond-box .left-box div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 400px;
+  max-width: 400px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -166,6 +179,7 @@ main .thekond-box .right-box {
   background-repeat: no-repeat;
   width: 462px;
   height: 527px;
+  position: relative;
 }
 
 main .thekond-box .right-box p {
@@ -173,8 +187,7 @@ main .thekond-box .right-box p {
   font-weight: bold;
   color: #ffffff;
   position: absolute;
-  right: 200px;
-  top: 270px;
+  top: 13rem;
 }
 
 main .third-box {
@@ -194,7 +207,7 @@ main .third-box p {
   line-height: 27px;
   color: #262626;
   text-align: center;
-  width: 600px;
+  max-width: 600px;
   display: block;
   margin: 0rem auto 2rem auto;
 }
@@ -206,11 +219,13 @@ main .third-box .big-box-1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main .third-box .big-box-1 img {
-  width: 770px;
-  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 main .third-box .big-box-1 .box {
@@ -229,8 +244,6 @@ main .third-box .big-box-1 .box {
 }
 
 main .third-box .big-box-1 .box img {
-  width: 370px;
-  height: 260px;
   margin-bottom: 5%;
 }
 
@@ -238,15 +251,11 @@ main .third-box .big-box-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-main .third-box .big-box-2 img {
-  width: 565px;
-  height: 400px;
-  margin: 0px 10px;
 }
 
 main .third-box a {
@@ -273,6 +282,8 @@ main .fourth-box {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main .fourth-box h2 {
@@ -285,7 +296,7 @@ main .fourth-box p {
   font-size: 17px;
   line-height: 27px;
   color: #262626;
-  width: 550px;
+  max-width: 550px;
   margin-bottom: 1rem;
 }
 
@@ -293,6 +304,8 @@ main .fourth-box form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main .fourth-box form .email {
@@ -341,7 +354,7 @@ main .fifth-box p {
   line-height: 25px;
   color: #ffffff;
   text-align: center;
-  width: 600px;
+  max-width: 600px;
   display: block;
   margin: 0px auto;
   margin-bottom: 2rem;
@@ -354,6 +367,8 @@ main .fifth-box .big-box {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main .fifth-box .big-box div {
@@ -396,7 +411,7 @@ main .fifth-box .big-box div p {
   line-height: 25px;
   color: #ffffff;
   bottom: 3rem;
-  width: 300px;
+  max-width: 300px;
   text-align: start;
   margin-bottom: 1rem;
 }
@@ -455,6 +470,8 @@ main .sixth-box {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 5rem 0rem;
 }
 
@@ -467,19 +484,21 @@ main .sixth-box p {
   font-size: 17px;
   line-height: 25px;
   color: #262626;
-  width: 350px;
+  max-width: 350px;
   display: block;
   margin: 2rem auto;
 }
 
 main .sixth-box .contact {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-right: 10rem;
 }
 
@@ -538,6 +557,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -561,5 +582,194 @@ footer h2 {
   font-size: 25px;
   color: #b9b9b9;
   font-weight: 300;
+}
+
+@media (max-width: 479px) {
+  header {
+    padding: 2rem;
+  }
+  main section {
+    padding: 2rem !important;
+  }
+  main section h2 {
+    font-size: 35px !important;
+  }
+  main section .right-box p {
+    font-size: 60px !important;
+  }
+  main .thekond-box .left-box {
+    width: 100%;
+  }
+  main .third-box {
+    width: 100%;
+  }
+  main .third-box .big-box-1 img {
+    width: 100%;
+  }
+  main .third-box .box {
+    width: 100%;
+  }
+  main .third-box .box img {
+    width: 100%;
+  }
+  main .third-box .big-box-2 img {
+    width: 100%;
+  }
+  main .first-box div {
+    margin: 0rem 2rem;
+  }
+  main .fourth-box {
+    padding: 2rem !important;
+  }
+  main .fourth-box form .button {
+    margin: 1rem auto;
+  }
+  main .sixth-box .contact-form {
+    margin: 1rem !important;
+  }
+  main .sixth-box .contact-form input {
+    width: 100%;
+  }
+  main .sixth-box .contact-form textarea {
+    width: 100%;
+  }
+  footer p {
+    text-align: center;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  main .fourth-box {
+    padding: 2rem !important;
+  }
+  main .fourth-box form .button {
+    margin: 1rem auto;
+  }
+  main .third-box {
+    width: 100%;
+  }
+  main .third-box .big-box-1 img {
+    width: 100%;
+  }
+  main .third-box .box {
+    width: 100%;
+  }
+  main .third-box .box img {
+    width: 100%;
+  }
+  main .third-box .big-box-2 img {
+    width: 100%;
+  }
+  main .sixth-box .contact-form {
+    margin: 0;
+  }
+}
+
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+.menu-btn span {
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #222222;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+  top: calc(50% - 5px);
+}
+
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 5px);
+}
+
+.menu-btn.active span:nth-of-type(1) {
+  display: none;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+  top: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+          transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.menu-btn.active span:nth-of-type(3) {
+  top: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(-45deg);
+          transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+@media (max-width: 767px) {
+  main .first-box--img {
+    width: 100%;
+  }
+  main .first-box--img img {
+    width: 100%;
+  }
+  body.lock {
+    overflow: hidden;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu {
+    position: fixed;
+    top: 6rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: #7b8080;
+    padding: 15px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    overflow: auto;
+  }
+  .menu.active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .menu.active nav {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .menu.active nav li {
+    display: block;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1337px) {
+  main .third-box {
+    width: 100%;
+  }
+  main .third-box .big-box-1 img {
+    width: 70%;
+  }
+  main .third-box .box {
+    width: 100%;
+  }
+  main .third-box .box img {
+    width: 70%;
+  }
+  main .third-box .big-box-2 img {
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
