@@ -3,6 +3,10 @@
         font-family: "Raleway", sans-serif;
       }
       
+      body {
+        overflow-x: hidden;
+      }
+      
       header {
         background-image: url(../images/1.png);
         @include backgroundImage;
@@ -170,6 +174,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            & img {
+              margin: 0 .5rem
+            }
           }
           & a {
             @include button;
@@ -430,6 +437,7 @@
         }
         main .sixth-box .contact-form {
           margin: 1rem !important;
+          width: 60%;
           & input {
             width: 100%;
           }
@@ -473,6 +481,9 @@
         }
         main .sixth-box .contact-form {
           margin: 0;
+        }
+        main .first-box div h2 {
+          font-size: 40px;
         }
       }
       
@@ -553,26 +564,64 @@
             }
           }
         }
+        main .thekond-box .right-box {
+          background-size: 90%;
+        }
+        main .sixth-box .contact-form {
+          margin: 1rem !important;
+          width: 60%;
+          & input {
+            width: 100%;
+          }
+          & textarea {
+            width: 100%;
+          }
+        }
       }
       
-      @media (min-width: 768px) and (max-width: 1337px) {
+      @media (min-width: 768.9999px) and (max-width: 1348px) {
         main .third-box {
           width: 100%;
           & .big-box-1 {
             & img {
               width: 70%;
+              margin-bottom: 2rem;
             }
           }
           & .box {
             width: 100%;
             & img {
-              width: 70%;
+              width: 71%;
             }
           }
           & .big-box-2 {
             & img {
               width: 70%;
+              margin-bottom: 2.3rem;
             }
           }
+        }
+        main .fourth-box {
+          padding: 2rem !important;
+          & form {
+            margin: 1rem;
+            flex-wrap: nowrap;
+            & .button {
+              margin: 1 auto;
+            }
+          }
+        }
+        main .sixth-box .contact-form {
+          margin: 1rem !important;
+          width: 60%;
+          & input {
+            width: 100%;
+          }
+          & textarea {
+            width: 100%;
+          }
+        }
+        main .sixth-box .contact-adress {
+          padding-top: 1.5rem;
         }
       }

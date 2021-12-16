@@ -2,6 +2,10 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-image: url(../images/1.png);
   background-size: cover;
@@ -256,6 +260,10 @@ main .third-box .big-box-2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+main .third-box .big-box-2 img {
+  margin: 0 .5rem;
 }
 
 main .third-box a {
@@ -626,6 +634,7 @@ footer h2 {
   }
   main .sixth-box .contact-form {
     margin: 1rem !important;
+    width: 60%;
   }
   main .sixth-box .contact-form input {
     width: 100%;
@@ -663,6 +672,9 @@ footer h2 {
   }
   main .sixth-box .contact-form {
     margin: 0;
+  }
+  main .first-box div h2 {
+    font-size: 40px;
   }
 }
 
@@ -753,23 +765,62 @@ footer h2 {
     display: block;
     margin: 1rem;
   }
+  main .thekond-box .right-box {
+    background-size: 90%;
+  }
+  main .sixth-box .contact-form {
+    margin: 1rem !important;
+    width: 60%;
+  }
+  main .sixth-box .contact-form input {
+    width: 100%;
+  }
+  main .sixth-box .contact-form textarea {
+    width: 100%;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 1337px) {
+@media (min-width: 768.9999px) and (max-width: 1348px) {
   main .third-box {
     width: 100%;
   }
   main .third-box .big-box-1 img {
     width: 70%;
+    margin-bottom: 2rem;
   }
   main .third-box .box {
     width: 100%;
   }
   main .third-box .box img {
-    width: 70%;
+    width: 71%;
   }
   main .third-box .big-box-2 img {
     width: 70%;
+    margin-bottom: 2.3rem;
+  }
+  main .fourth-box {
+    padding: 2rem !important;
+  }
+  main .fourth-box form {
+    margin: 1rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  main .fourth-box form .button {
+    margin: 1 auto;
+  }
+  main .sixth-box .contact-form {
+    margin: 1rem !important;
+    width: 60%;
+  }
+  main .sixth-box .contact-form input {
+    width: 100%;
+  }
+  main .sixth-box .contact-form textarea {
+    width: 100%;
+  }
+  main .sixth-box .contact-adress {
+    padding-top: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
